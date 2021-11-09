@@ -1,0 +1,46 @@
+root {
+    font-size: 10px;
+}
+body {
+    background-color: steelblue;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.text-container{
+    height: 20vh;
+    overflow: hidden;
+}
+
+
+h1, button, p{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2em;
+    font-size: 4em;
+}
+
+button {
+    padding: 1em 1.5em;
+    border: none;
+    background-color: hsl(27, 44%, 49%);
+    font-size: 2em;
+    width: 25vw;
+}
+
+p {
+    font-size: 3.5rem;
+    text-align: center;
+}
