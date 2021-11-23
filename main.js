@@ -60,5 +60,5 @@ btn.addEventListener('click', function() {
     p.innerHTML = randomSentence()
     textContainer.appendChild(p)
     //textContainer.insertBefore(p, btn)
-    let timeoutID = setTimeout(() => {textContainer.removeChild(p);}, 2500);
+    let timeoutID = setTimeout(() => {textContainer.removeChild(p);}, 3500);
 })
